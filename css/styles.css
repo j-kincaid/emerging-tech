@@ -35,26 +35,26 @@ nav ul {
 nav ul li {
   margin: 0 15px;
   display: inline;
+  text-decoration: none;
 }
 
 nav ul li a {
   color: #B5FBFD;
   text-decoration: none;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
+  text-shadow: none;
 }
 
 div.container {
   display: flex;
   align-content: stretch;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
-  margin:0;
+  margin: 17vw 0 0 0;
   position:absolute;
   background: radial-gradient(ellipse farthest-corner at right bottom, #E5B395 0%, #FEEED6 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
   radial-gradient(ellipse farthest-corner at left top, #bff2f1, #ab9283 8%, #E7EEF1 25%, #9b8c84 62.5%, #161208 100%);
+  top: 0;
+  left: 0;
 }
 
 h1 {
@@ -91,6 +91,7 @@ img.info {
 section.iframes {
   margin: auto;
   width: 80%;
+  /* height: 100%; */
 }
 
 img.cover,
