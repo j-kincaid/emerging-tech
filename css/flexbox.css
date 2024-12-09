@@ -2,9 +2,11 @@
     FLEXBOX
 ========================= */
 
-nav {
+.container {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.item-1 {
+    order: 1;
 }
